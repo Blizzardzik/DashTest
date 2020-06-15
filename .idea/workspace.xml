@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03b46f5a-3d52-481a-ad4d-3b1adc7040e9" name="Default Changelist" comment="Initialize">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="03b46f5a-3d52-481a-ad4d-3b1adc7040e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,28 @@
       <recent name="C:\Users\Blizzardzik\PycharmProjects\DashApp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.dashApp (1)">
+    <configuration name="dashApp (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DashApp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dashApp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dashApp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DashApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dashApp (1)" />
         <item itemvalue="Python.dashApp" />
       </list>
     </recent_temporary>
@@ -84,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1592222680854</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initialize">
+      <created>1592230054237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592230054237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,22 +140,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="622" y="345" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1592226549604" />
-    <state width="1578" height="218" key="GridCell.Tab.0.bottom" timestamp="1592230066947">
+    <state width="1578" height="218" key="GridCell.Tab.0.bottom" timestamp="1592232160143">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592230066947" />
-    <state width="1578" height="218" key="GridCell.Tab.0.center" timestamp="1592230066947">
+    <state width="1578" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592232160143" />
+    <state width="1578" height="218" key="GridCell.Tab.0.center" timestamp="1592232160143">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592230066947" />
-    <state width="1578" height="218" key="GridCell.Tab.0.left" timestamp="1592230066946">
+    <state width="1578" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592232160143" />
+    <state width="1578" height="218" key="GridCell.Tab.0.left" timestamp="1592232160143">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592230066946" />
-    <state width="1578" height="218" key="GridCell.Tab.0.right" timestamp="1592230066947">
+    <state width="1578" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592232160143" />
+    <state width="1578" height="218" key="GridCell.Tab.0.right" timestamp="1592232160143">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1578" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592230066947" />
+    <state width="1578" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592232160143" />
     <state x="301" y="61" key="SettingsEditor" timestamp="1592226666340">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
