@@ -35,6 +35,23 @@ def getDataFromApiUS():
    #                 mode='lines',
    #                 name='Active'))
    # })])
+def kpiChartGraph(CovidDataSummary):
+    return html.Div([
+        dcc.Graph(id='kpi-chart', config={'displayModeBar':True}, figure=go.Figure(go.Indicator(
+       mode="number+gauge+delta",
+       gauge={'shape': "bullet",
+              'bgcolor': 'white',
+              'bar': {'color': "red"},
+              'threshold': {
+                  'line': {'color': "grey", 'width': 2},
+                  'thickness': 0.75, 'value': 500000}, },
+
+       value=CovidDataSummary['TotalDeaths'].sum(),
+       delta={'reference': 500000},
+       domain={'x': [0, 1], 'y': [0, 1]},
+       title={'text': "<b>     Deaths</b><br><span style='color: gray; font-size:0.8em'>Covid 2019</span>",
+              'font': {"size": 13}}))
+                  )])
 
 ##another api call with summary data for all countries
 def summaryDataFromApi():
@@ -71,7 +88,8 @@ app.layout = html.Div([
     html.H2('Covid app'),
     html.H3('Summary by country - deaths'),
     html.Div([barChartSummary(summaryDataFromApi())
-              ])
+              ]),
+    html.Div([kpiChartGraph(summaryDataFromApi())])
                       ])
 
 #@app.callback(dash.dependencies.Output('display-value', 'children'),
