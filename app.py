@@ -69,8 +69,9 @@ server = app.server
 
 app.layout = html.Div([
     html.H2('Covid app'),
-    html.Div([barChartSummary(summaryDataFromApi())
-              ]),
+    html.H3('Covid app 2'),
+  #  html.Div([barChartSummary(summaryDataFromApi())
+  #            ]),
     dcc.Dropdown(
         id='dropdown',
         options=[{'label': i, 'value': i} for i in ['LA', 'NYC', 'MTL']],
