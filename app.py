@@ -129,8 +129,8 @@ app.layout = html.Div([
     html.H3('Summary by country - deaths'),
     html.Div([barChartSummary(summaryDataFromApi())
               ]),
-    html.H4('Total confirmed deaths so far - 500k as the target'),
-    html.Div([kpiChartGraph(summaryDataFromApi())]),
+    html.H4('Countries by death toll map - summary'),
+ ##   html.Div([kpiChartGraph(summaryDataFromApi())]),
     html.Div([cloropethMap(summaryDataFromApi())])
                       ])
 
