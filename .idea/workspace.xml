@@ -37,10 +37,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Blizzardzik\PycharmProjects\DashApp" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Blizzardzik\PycharmProjects\DashApp" />
     </key>
@@ -163,22 +167,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="622" y="345" key="Github.CreateGistDialog/0.0.1600.860@0.0.1600.860" timestamp="1592226549604" />
-    <state width="1556" height="218" key="GridCell.Tab.0.bottom" timestamp="1592252892878">
+    <state width="1540" height="212" key="GridCell.Tab.0.bottom" timestamp="1592310467187">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="218" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592252892878" />
-    <state width="1556" height="218" key="GridCell.Tab.0.center" timestamp="1592252892878">
+    <state width="1540" height="212" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1592310467187" />
+    <state width="1540" height="212" key="GridCell.Tab.0.center" timestamp="1592310467187">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="218" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592252892878" />
-    <state width="1556" height="218" key="GridCell.Tab.0.left" timestamp="1592252892878">
+    <state width="1540" height="212" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1592310467187" />
+    <state width="1540" height="212" key="GridCell.Tab.0.left" timestamp="1592310467187">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="218" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592252892878" />
-    <state width="1556" height="218" key="GridCell.Tab.0.right" timestamp="1592252892878">
+    <state width="1540" height="212" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1592310467187" />
+    <state width="1540" height="212" key="GridCell.Tab.0.right" timestamp="1592310467187">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="218" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592252892878" />
+    <state width="1540" height="212" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1592310467187" />
     <state x="301" y="61" key="SettingsEditor" timestamp="1592226666340">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

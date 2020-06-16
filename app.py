@@ -52,7 +52,47 @@ def kpiChartGraph(CovidDataSummary):
        title={'text': "<b>     Deaths</b><br><span style='color: gray; font-size:0.8em'>Covid 2019</span>",
               'font': {"size": 13}}))
                   )])
+##this function creates a map in plotly taking CovidDataSummary data call from api - data frame as input
+def cloropethMap(CovidDataSummary):
+    return html.Div([
+        dcc.Graph(id='chloropeth-map', config={'displayModeBar':True}, figure={
+                'data': [
+                    # map
+                    go.Choropleth(
+                        locations=CovidDataSummary['Country'],
+                        z=CovidDataSummary['TotalDeaths'],
+                        text=CovidDataSummary['Country'],
+                        locationmode='country names',
+                        colorscale='Reds',
+                        autocolorscale=False,
+                        reversescale=False,
+                        marker_line_color='darkgray',
+                        marker_line_width=0.5,
+                        colorbar_tickprefix='Deaths  :',
+                        colorbar_title='Covid-2019<br>Total Deaths',
+                    )
 
+                ],
+                'layout': go.Layout(
+                    title_text='Covid-2019 Countries by Total Deaths',
+                    geo=dict(
+                    showframe=False,
+                    showcoastlines=False,
+                    projection_type='equirectangular'
+                    ),
+                    annotations=[dict(
+                        x=0.55,
+                        y=0.1,
+                        xref='paper',
+                        yref='paper',
+                        text='Source: <a href="https://api.covid19api.com/">\
+                                Covid-2019 open API</a>',
+                        showarrow=False
+                    )]
+                )
+            }
+        )
+    ])
 ##another api call with summary data for all countries
 def summaryDataFromApi():
     jsonCovidData=req.get('https://api.covid19api.com/summary')
@@ -90,7 +130,8 @@ app.layout = html.Div([
     html.Div([barChartSummary(summaryDataFromApi())
               ]),
     html.H4('Total confirmed deaths so far - 500k as the target'),
-    html.Div([kpiChartGraph(summaryDataFromApi())])
+    html.Div([kpiChartGraph(summaryDataFromApi())]),
+    html.Div([cloropethMap(summaryDataFromApi())])
                       ])
 
 #@app.callback(dash.dependencies.Output('display-value', 'children'),
