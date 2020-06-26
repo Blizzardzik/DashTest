@@ -4,4 +4,4 @@ venv
 .env
 /credentials
 *.xml
-/.idea
+.idea
